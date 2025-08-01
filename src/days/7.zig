@@ -1,1 +1,3 @@
-pub fn main() u16 {}
+pub fn main() u16 {
+    return 0;
+}

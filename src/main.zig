@@ -1,6 +1,6 @@
 const std = @import("std");
 
-const days = [25]fn () u16{
+const days = [25]*const fn () u16{
     @import("days/1.zig").main,
     @import("days/2.zig").main,
     @import("days/3.zig").main,
